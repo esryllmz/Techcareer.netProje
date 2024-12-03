@@ -1,0 +1,120 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.jobs-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #222;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.job-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.job-card:hover {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-logo-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.job-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  object-fit: cover;
+  background-color: #e0e0e0;
+}
+
+.job-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.job-company {
+  font-size: 0.95rem;
+  color: #666;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.job-label {
+  font-size: 0.85rem;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 16px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.job-label.yeni {
+  background-color: #EFFFEB;
+  color: #00C26D;
+}
+
+.job-label.bugün {
+  background-color: #FFFFFF;
+  color: #878787;
+}
+
+.job-label.son-gün {
+  background-color: #FFF3F1;
+  color: #E74D3C;
+}
+
+.job-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-left: 0;
+}
+
+.job-tag {
+  background-color: #eef2f7;
+  color: #555;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 15px;
+}
+
+.job-details {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 5px;
+}
